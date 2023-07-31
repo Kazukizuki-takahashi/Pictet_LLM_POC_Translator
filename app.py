@@ -15,7 +15,7 @@ system_prompt = """
 # st.session_stateを使いメッセージのやりとりを保存
 if "messages" not in st.session_state:
     st.session_state["messages"] = [
-        {"role": "system", "content": system prompt}
+        {"role": "system", "content": system_prompt}
         ]
 
 # チャットボットとやりとりする関数
